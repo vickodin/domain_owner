@@ -3,8 +3,7 @@ require 'net/http'
 require 'json'
 
 module DomainOwner
-  # API_URL = 'https://owner.platform.monster/api/domains'
-  API_URL = 'http://owner.pm.local:4000/api/domains'
+  API_URL = 'https://owner.platform.monster/api/domains'
 
   class Error < StandardError; end
   class WrongParams < Error; end
